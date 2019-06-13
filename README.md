@@ -1,10 +1,11 @@
-# pyqt5_camera_viewer
-In this example, we demonstrate how to create simple camera viewer using Opencv3 and PyQt5.
+## PhotoLabel
 
-If you  need to change ui_main_window.ui with QtDesigner, don't forget to regenerate ui_main_window.py file using this command:  
-```{r, engine='sh', count_lines}
-pyuic5 main_window.ui -o main_window.py
-```
+### Click _Start_ button to start camera.
 
+### Click _Stop_ button to stop camera.
 
+### Clcik _Save_ button to save last images.
 
+### Select saving path by comboBox.
+
+### Camera number and comboBox content could be changed in _main_window.py_
